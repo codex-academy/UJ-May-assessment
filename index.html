@@ -6,9 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-    <ul>{{cv}}
+    <ul>{{#each cv}}
         <li>{{this.name}}</li>
-        {{/cv}}
+        {{each}}
         </ul>
 </body>
 </html>
