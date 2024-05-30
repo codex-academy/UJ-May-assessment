@@ -10,9 +10,6 @@
         "photo" : "",
         "description" : ""
     },
-    "object" :[
-        
-    ],
     "foreignLanguage" : {
         "language" : "",
         "phrases" : [{
@@ -37,5 +34,103 @@
             "name" : "",
             "description" : ""
         }
-    ]
+    ],
+   
+    "personalIformation" : {
+            "Full names: Timoteus Iiyambo Timoteus
+            Date of birth: 20 October 1996
+            ID number: 96102000242
+            Passport Number: P1014967
+            Nationality: Namibian
+            Marital status: Single
+            Health status: Excellent
+            Criminal record: None
+            Languages: English, Oshiwambo
+            Original from: Windhoek, Namibia"
+        },
+
+    "aboutMe" : {
+            "I am extremely motivated to develop and grow my skills in the engineering industry. I am confident in my abilities to solve complex engineering problems and come up with new ideas and adapt to a new environment. My passion for electrical and electronics started at an early age and since then, I have been interested in pursuing a career in it. I value accountability and good ethical behavior, and above all, I value integrity." 
+        },
+    
+
+    "school" :
+        {
+            "SECONDARY EDUCATION" :"
+            Name of institution: Gabriel Taapopi SS
+            Highest grade passed: Matric Obtained
+            Year of completion: 2014
+            Subjects passed: All
+            Matric Certificate Copy attached",
+
+            "TERTIARY EDUCATION" :"
+            Name of Institution: University of Johannesburg
+            Studies: BEng: Electrical and Electronics Engineering (NQF level 8)
+            Period: 2017 – 2022
+            Status: Completed
+            Copy of studies attached."
+        },
+
+    "experience" :{
+
+        "Company: Emtech Solar Solution
+Program: Assistant PV Sales Consultant Engineer
+Duties:
+
+Designing of PV and other backup power systems
+Commissioning of power backup installations
+Consultation of PV systems with customers
+Sales of Solar systems
+Period: September 2023 to Date
+Company: Windhoek Consulting Engineers
+Program: Electrical Engineer in Training
+Duties:
+
+Electrical Cad Draughting (Building Services)
+Power Distribution networks layouts for rural and urban electrification
+Transformer Substation design, test, and commissioning
+Mini Substation Design
+Cable Scheduling
+Project management
+Period: February 2023 – July 2023"
+},
+
+"skillsandknowladge" :{
+    "Microsoft Office Package
+Soft Skills
+AutoCad
+PV GIS
+RaticMaster (Power distribution simulations)
+Transformer Designs (Testing and Commissioning)
+Engineering Fieldwork (Supervision and Commissioning)
+SANS 507-1: 2012 / NRS 034-7: 2012
+SANS 10142-1: 2020
+IEC 61850 / IEC 60870 (NDP, Modbus)
+Solar PV Systems (Grid-tied and off-grid PV systems)
+Backup Power systems Design and commissioning
+Power Systems (Generation, Transmission and Distribution)
+Power Electronics
+Energy systems"
+},
+
+"references" :{
+"Name: Prof Omowunmi Mary Longe
+Relationship: Final Year Project Supervisor
+Organization: University of Johannesburg
+Department: Department of Electrical Engineering
+Contact: +27 62 808 5403
+Email: omowunmil@uj.ac.za"
+
+"Name: Prof Suvendi Remer
+Relationship: Assistant Lecture Supervisor
+Organization: University of Johannesburg
+Department: Department of Electrical Engineering
+Contact: +27 84 580 3226
+Email: suvendir@uj.ac.za"
 }
+
+    
+
+    
+}
+
