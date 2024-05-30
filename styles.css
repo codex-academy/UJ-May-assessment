@@ -1,0 +1,126 @@
+
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    width: 90%;
+    padding: 1em;
+    background-color: #FFD7BE ;
+}
+
+p{
+    line-height: 30px;
+}
+
+hr{
+    margin: 2em auto;
+    height: 2px;
+    background-color: black;
+    border: 1px solid gray;
+}
+
+
+.profilePic{
+    border-radius: 15em;
+    width: 18em;
+}
+.contactIcon{
+    border-radius: 13em;
+}
+
+.istImage{
+    width: 80%;
+}
+
+.cityDescription{
+    flex: 1;
+    line-height: 30px;
+}
+
+.tableLanguage, tr, th, td{
+    border: 1px solid black;
+}
+
+.tableLanguage{
+    width: 100%;
+}
+#webText,
+.favSubjects{
+    text-align: center;
+}
+.btnContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+.flexButton{
+    margin-bottom: 15px;
+}
+
+/*favourite subjects styling*/
+.subjectImg,
+.subjectImg01,
+.subjectImg02{
+    width: 90%;
+}
+
+.bodyBackground,
+.Intro{
+    color: black;
+    background-image: url(images/Table-Mountain_GettyImages.webp);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.placeInfo{
+    display: flex;
+    flex: 2;
+}
+.placePic{
+    margin-right: 5px;
+    flex: 1;
+}
+.myFooter{
+    margin-top: 60px;
+}
+
+#desktopPic{
+    display: none;
+}
+
+#mobilePic{
+    display: inline-block;
+}
+
+@media (min-width:760px){
+    .Intro, 
+    .contactDetails,
+    .city,
+    .histFlex,
+    .subjects{
+        display: flex;
+        justify-content: space-between;
+        margin: 1em;
+    }
+    .placeInfo{
+        display: flex;
+        flex: 3;
+    }
+    .placePic{
+        margin-right: 5px;
+        flex: 1;
+    }
+    .cityPI{
+        flex: 1;
+    }
+
+    #mobilePic{
+        display: none;
+    }
+
+    #desktopPic{
+        display: inline-block;
+    }
+}
