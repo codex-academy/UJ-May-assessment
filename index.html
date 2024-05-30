@@ -1,11 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My CV</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <h1>Hello World</h1>
+    <h1>{{user.fullName}}</h1>
+    <div class="mypic">
+        <img src="Thobani Gwala.jpg" alt="mypic">
+    </div>
+    <div>
+        {{user.about}}
+    </div>
+    <div>
+        <h1>contact</h1>
+    </div>
+    <div class="contact">
+        <div>{{contact.email}}</div>
+        <div>{{contact.phone}}</div>
+        <div>{{contact.address}}</div>
+    </div>
+
+
+    <div>
+        <h1>Experience</h1>
+    </div>
+    <div class="experience">
+        {{experience.role}}<br>
+        {{experience.company}}<br>
+        {{experience.years}}<br>
+    </div>
+
+
+    <div>
+        <h1>Education</h1>
+    </div>
+    <div class="education">
+        <div>{{education.degree}}</div>
+        <div>{{education.institution}}</div>
+        <div>{{education.years}}</div>
+    </div>
+
+
+    <div>
+        <h1>Skills</h1>
+    </div>
+    <div class="skills">
+        <ul class="dots">
+            <li>{{skills.skill1}}</li>
+            <li>{{skills.skill2}}</li>
+            <li>{{skills.skill3}}</li>
+        </ul> 
+    </div>
 </body>
+        
+
+
 </html>
