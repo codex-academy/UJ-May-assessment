@@ -1,9 +1,7 @@
-body {
+.body {
 font-family: sans-serif;
-background-image: "C:\Users\217029550\Pictures\WhatsApp Images\IMG-20230227-WA0057.jpg";
-background-size: cover;
-background-position: center;
-}
+background-color: rgba(80, 243, 216, 0.342);}
+
 .container {
 display: flex;
 flex-direction: column;
