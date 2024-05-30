@@ -1,11 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>{{user.fullName}}'s Profile</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <h1>Hello World</h1>
+    <div class="profile-container">
+        <div class="header block">
+            <div class="heading">
+                <h1>{{user.fullName}}</h1>
+                <p>{{user.address}}</p>
+                <p>Phone: {{user.phone}}</p>
+                <p>Email: <a href="mailto:{{user.email}}">{{user.email}}</a></p>
+            </div>
+            <div class="pic">
+                <img src="Makhanya.jpg" width="150">
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row1">
+                <div class="section">
+                    <h2>Objective</h2>
+                    <p>{{objective.summary}}</p>
+                </div>
+                <div class="section">
+                    <h2>Experience</h2>
+                    <h3>{{experience.role}}</h3>
+                    <p>{{experience.description}}</p>
+                </div>
+
+                <div class="section">
+                    <h2>Education</h2>
+                    <ul>
+                        {{#each education}}
+                        <li>
+                            <strong>{{institutionName}}</strong> - {{course}} ({{year}})
+                        </li>
+                        {{/each}}
+                    </ul>
+                </div>
+                <div class="section">
+                    <h2>Skills</h2>
+                    <ul>
+                        {{#each skills}}
+                        <li>{{this}}</li>
+                        {{/each}}
+                    </ul>
+                </div>
+            </div>
+
+            <div class="rows">
+                <div class="section">
+                    <h2>Achievements & Awards</h2>
+                    <ul>
+                        {{#each achievementsawards}}
+                        <li>{{this}}</li>
+                        {{/each}}
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <h2>Languages</h2>
+                    <ul>
+                        {{#each languages}}
+                        <li>{{this}}</li>
+                        {{/each}}
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <h2>References</h2>
+                    <ul>
+                        {{#each references}}
+                        <li>
+                            <strong>{{name}}</strong><br>
+                            Contact: {{contacts}}
+                        </li>
+                        {{/each}}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>

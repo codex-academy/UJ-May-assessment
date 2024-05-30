@@ -1,38 +1,63 @@
 {
-    "user" : {
-        "fullName" : "",
-        "photo" : "",
-        "phone" : "",
-        "email" : ""
+    "user": {
+        "fullName": "Motlalepula Makhanya",
+        "photo": "Makhanya.jpg",
+        "address": "Vosloorus Gauteng South Africa",
+        "phone": "0814841871",
+        "email": "motlalepulamakhanya5@gmail.com"
     },
-    "education" : {
-        "institutionName" : "",
-        "photo" : "",
-        "description" : ""
+    "objective": {
+        "summary": "I am an Electrical Engineering Graduate registered with the Engineering Council of South Africa (ECSA) as a Candidate Engineering Technologist and a Teacher of English as a Foreign Language. With a foundation in creative thinking, critical problem-solving, and effective communication, I am seeking opportunities to gain practical experience in my career field."
     },
-    "foreignLanguage" : {
-        "language" : "",
-        "phrases" : [{
-            "englishPhrase" : "",
-            "foreignLanguage" : ""
+    "skills": {
+        "1": "Effective Communication",
+        "2": "Critical Problem Solving",
+        "3": "Electronic Circuit Designs",
+        "4": "Heavy and light Current concepts",
+        "5": "Python and C++ Programming",
+        "6": "Machine Learning with Python",
+        "7": "IoT Based circuit designs",
+        "8": "HTML & CSS"
+    },
+    "experience": {
+        "role": "Accenture/UJ – 4IR Intern (current)",
+        "description": "Engaging in hands-on learning experiences focused on Agile Rapid Skills Acquisition, Engineering Business Systems for 4IR, Technologies Bootcamps, and Full Stack Web Development.\r\nActively participating in workshops, projects, and practical exercises to enhance skills and understanding of modern digital technologies.\r\nCollaborating with mentors and industry professionals to gain insights and practical knowledge relevant to the field of technology and engineering."
+    },
+    "education": [
+        {
+            "institutionName": "University of Johannesburg",
+            "course": "Bachelor of Engineering Technology in Electrical Engineering",
+            "year": "2022"
         },
         {
-            "englishPhrase" : "",
-            "foreignLanguage" : ""
-        }]
+            "institutionName": "Breda Combined Farm School",
+            "course": "High School Diploma",
+            "year": "2018"
+        }
+    ],
+    "achievementsawards": {
+        "a": "Candidate Engineering Technologist with Engineering Council South Africa (ECSA)",
+        "b": "Volunteer Champion (UJ)",
+        "c": "Mentor of the Year (Akanani Mens Residence)",
+        "d": "Head Prefect (Breda Combined School)"
     },
-    "favouriteSubjects" : [
+    "languages": {
+        "1": "English",
+        "2": "Sesotho",
+        "3": "Afrikaans"
+    },
+    "references": [
         {
-            "name" : "",
-            "description" : ""
+            "name": "Mr. Andy Balaram, Community Engagement Specialist: University of Johannesburg",
+            "contacts": "+277 4327 5907"
         },
         {
-            "name" : "",
-            "description" : ""
+            "name": "Mr. MJ Mvelase, Lecturer: University of Johannesburg",
+            "contacts": "mjmvelase@uj.ac.za, +271 1559 6009"
         },
         {
-            "name" : "",
-            "description" : ""
+            "name": "Mr. Mekoa, Educator: Ipokelleng Secondary School",
+            "contacts": "+277 6413 6888"
         }
     ]
 }
