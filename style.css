@@ -1,6 +1,8 @@
 body {
 font-family: sans-serif;
-background-image: url('C:\Users\217029550\Pictures\WhatsApp Images\IMG-20230227-WA0057.jpg')
+background-image: "C:\Users\217029550\Pictures\WhatsApp Images\IMG-20230227-WA0057.jpg";
+background-size: cover;
+background-position: center;
 }
 .container {
 display: flex;
