@@ -1,6 +1,7 @@
 .body {
 font-family: sans-serif;
-background-color: rgba(80, 243, 216, 0.342);}
+background-color: rgba(80, 243, 216, 0.342);
+}
 
 .container {
 display: flex;
