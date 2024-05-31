@@ -1,39 +1,69 @@
 {
     "user" : {
-        "fullName" : "",
-        "photo" : "",
-        "phone" : "",
-        "email" : ""
+
+        "Locations" : "Johannesburg, South Africa / Windhoek, Namibia",
+        "phone" : "+264 81 792 1649 / +264 81 489 3213",
+        "email" : "timotimoteus@gmail.com",
+        "fullNames" : "Timoteus Iiyambo Timoteus",
+        "DateOfBirth": "20 October 1996",
+        "IDnumber" : "96102000242",
+        "PassportNumber" : "P1014967",
+        "Nationality" : "Namibian",
+        "MaritalStatus" : "Single",
+        "Healthstatus" : "Excellent",
+        "CriminalRecord" : "None",
+        "Languages" : "English, Oshiwambo",
+        "OriginalFrom" : "Windhoek Namibia"
+
+      
     },
+
     "education" : {
+
         "institutionName" : "",
         "photo" : "",
-        "description" : ""
+        "description" : "",
+
+        "NameofInstitution" : "Gabriel Taapopi SS",
+        "Highest grade passed" : "Matric Obtained",
+        "Year of completion" : "2014",
+        "Subjects passed" : "All",
+
+      "Name of Institution" : "University of Johannesburg",
+      "Studies" : "BEng: Electrical and Electronics Engineering (NQF level 8)",
+      "Period" : "2017 – 2022",
+      "Status" : "Completed"
+      
     },
-    "foreignLanguage" : {
-        "language" : "",
-        "phrases" : [{
-            "englishPhrase" : "",
-            "foreignLanguage" : ""
-        },
-        {
-            "englishPhrase" : "",
-            "foreignLanguage" : ""
-        }]
+    
+    "experience" :{
+
+        "Company" : "Emtech Solar Solution",
+        "Program" : "Assistant PV Sales Consultant Engineer",
+
+        "Company1": "Windhoek Consulting Engineers",
+        
+        "Program1" : "Electrical Engineer in Training"
+    
     },
-    "favouriteSubjects" : [
-        {
-            "name" : "",
-            "description" : ""
-        },
-        {
-            "name" : "",
-            "description" : ""
-        },
-        {
-            "name" : "",
-            "description" : ""
-        }
-    ]
-   }
+
+    
+    "references" : {
+
+        "Name" : "Prof Omowunmi Mary Longe",
+        "Relationship" : "Final Year Project Supervisor",
+        "Organization" : "University of Johannesburg",
+        "Department" : "Department of Electrical Engineering",
+        "Contact" : "+27 62 808 5403",
+        "Email" : "omowunmil@uj.ac.za",
+
+        "Name1": "Prof Suvendi Remer",
+        "Relationship1": "Assistant Lecture Supervisor",
+        "Organization1": "University of Johannesburg",
+        "Department1": "Department of Electrical Engineering",
+        "Contact1" : "+27 84 580 3226",
+        "Email1": "suvendir@uj.ac.za"
+    }
+}
+   
 
