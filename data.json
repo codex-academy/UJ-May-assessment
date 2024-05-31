@@ -1,38 +1,82 @@
 {
-    "user" : {
-        "fullName" : "",
-        "photo" : "",
-        "phone" : "",
-        "email" : ""
+    "personalDetails": {
+      "name": "Luvuyo Bheki Ndlovu",
+      "profession": "Mathematician/Statistician",
+      "citizenship": "South African",
+      "description": "I am a versatile and analytical problem solver, equipped with a strong foundation in Mathematical and statistical techniques. I have a deep understanding of Mathematical modelling, data analysis, and computational methods, and skilled in applying these tools to real life problems in fields such as science, engineering, economics, and finance. With a solid grasp of probability, statistics, and data visualization, I can collect, analyze, and interpret complex data and communicate insights effectively to both technical and non-technical audiences. Additionally, I have programming skills in languages such as R, Python, Javascript, Matlab, and I am familiar with machine learning algorithms and data science techniques.",
+      "contactDetails": {
+        "address": "Klipspriut 18 Flamingo street",
+        "phone": "(+27) 746742501",
+        "email": "bhekiluvuyo@gmail.com"
+      },
+      "profilePic": "./Shelly.jpg"
     },
-    "education" : {
-        "institutionName" : "",
-        "photo" : "",
-        "description" : ""
-    },
-    "foreignLanguage" : {
-        "language" : "",
-        "phrases" : [{
-            "englishPhrase" : "",
-            "foreignLanguage" : ""
-        },
-        {
-            "englishPhrase" : "",
-            "foreignLanguage" : ""
-        }]
-    },
-    "favouriteSubjects" : [
-        {
-            "name" : "",
-            "description" : ""
-        },
-        {
-            "name" : "",
-            "description" : ""
-        },
-        {
-            "name" : "",
-            "description" : ""
-        }
+    "workExperience": [
+      {
+        "company": "University of Johannesburg",
+        "position": "Software Engineering Internship",
+        "dates": "March 2024 - October 2024",
+        "description": "As a Software Engineering intern, I worked with experienced engineers to design, build, and test software applications. We collaborated with teams and learned industry best practices."
+      },
+      {
+        "company": "University of KwaZulu Natal",
+        "position": "Research Assistant (vacation work)",
+        "dates": "June 2014 - March 2015",
+        "description": "As a research assistant, I gained valuable vacation work experience supporting postgraduate students with their research projects. I assisted with data collection and data analysis, sharpening my skills in academic research and critical thinking. Through this experience, I gained a deeper understanding of various research methodologies and techniques, and developed my ability to work collaboratively and effectively in an academic setting. I also had the opportunity to present research findings and receive feedback from academics and peers."
+      }
+    ],
+    "education": [
+      {
+        "degree": "BSc in Applied Mathematics and Statistics",
+        "institution": "University of KwaZulu Natal",
+        "coursework": [
+          "The fundamentals of Calculus",
+          "Linear Algebra",
+          "Mathematical modelling",
+          "Statistical modelling"
+        ]
+      },
+      {
+        "certificate": "National Senior Certificate",
+        "institution": "Estcourt Secondary School"
+      }
+    ],
+    "skills": [
+      {
+        "name": "Problem solving skills",
+        "description": "Ability to analyze complex problems, identify key issues, and develop creative solutions."
+      },
+      {
+        "name": "Programming skills",
+        "description": "Proficient in programming languages such as Python, R, and Matlab with experience in software development and coding."
+      },
+      {
+        "name": "Statistical knowledge",
+        "description": "Understanding of statistical concepts and techniques, including hypothesis testing, regression analysis, and time series analysis."
+      }
+    ],
+    "references": [
+      {
+        "name": "Collen Downs",
+        "position": "Professor and SARCHI Research Chair in Ecosystem and Biodiversity",
+        "institution": "University of KwaZulu Natal",
+        "contact": "0332605127/04",
+        "email": "Downs@ukzn.ac.za"
+      },
+      {
+        "name": "Mr Allay Ebrahim",
+        "position": "Principal Technician",
+        "institution": "University of KwaZulu Natal",
+        "contact": "0332605661/0724665466",
+        "email": "allye@ukzn.ac.za"
+      },
+      {
+        "name": "Xolani Mabaso",
+        "position": "SA National Biodiversity Institute Conservation Officer",
+        "institution": "University of KwaZulu Natal",
+        "contact": "0332605661/0724665466",
+        "email": "xolani@ukzn.ac.za"
+      }
     ]
-}
+  }
+  
