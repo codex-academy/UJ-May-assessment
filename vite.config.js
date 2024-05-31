@@ -8,6 +8,6 @@ export default {
       context: data, // replace the curly brackets with data.json
     }),
   ],
-};
+});
 
 
