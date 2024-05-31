@@ -1,0 +1,68 @@
+
+.image {
+    width: 300px; 
+    height: auto; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    max-width: 100%;
+}
+
+.body {
+font-family: sans-serif;
+background-color: rgb(255, 255, 255);
+border-radius: 10px; 
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+margin: 0 auto; 
+max-width: 960px; 
+padding: 0 20px; }
+
+.header1 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.personal-info {
+    
+margin-top: 20px;
+}
+
+.about-me{
+   
+margin-top: 20px;
+}
+
+.education{
+
+margin-bottom: 10px;
+}
+
+.experience{
+margin-top: 20px;
+}
+
+.skills{
+margin-top: 20px;
+}
+
+.projects{
+margin-top: 20px;
+}
+
+.references{
+margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    nav {
+        flex-direction: column; 
+    }
+}
